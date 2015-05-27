@@ -1,0 +1,22 @@
+.slide {
+  @include clearfix;
+
+  width: $content-width;
+  &__phone {
+    float: left;
+    width: 300px;
+    margin-top: -20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__promo-block {
+    float: left;
+    width: $text-block-width;
+    margin: 20px;
+
+    &_right {
+      float: right;
+    }
+  }
+}

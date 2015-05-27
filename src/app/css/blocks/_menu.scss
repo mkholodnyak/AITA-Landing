@@ -1,0 +1,17 @@
+.menu {
+  color: $first-color;
+  font-weight: 300;
+
+  &__item {
+    display: inline-block;
+    padding: 20px 20px;
+    border-left: 1px solid $first-color;
+
+    font-size: 1.11em;
+
+    &_active {
+      border-left: none;
+      color: $second-color;
+    }
+  }
+}

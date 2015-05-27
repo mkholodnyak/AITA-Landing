@@ -1,0 +1,29 @@
+.logo {
+  width: 300px;
+  color: $first-color;
+  font-weight: 300;
+  &__img {
+    float: left;
+
+    width: 75px;
+    height: 75px;
+
+    margin: 20px 15px;
+  }
+
+  &__text {
+    float: left;
+    padding-top: 25px;
+  }
+
+  &__title {
+
+    font-size: 1.33em;
+
+  }
+
+  &__motto {
+    font-size: 1em;
+    line-height: .1;
+  }
+}

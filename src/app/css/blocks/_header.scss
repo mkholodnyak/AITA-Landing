@@ -1,0 +1,26 @@
+.header {
+  @include clearfix;
+
+  min-width: $content-width;
+  width: 100%;
+  height: $header-height;
+
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 15px -2px gray;
+  z-index: 10;
+  background-color: $white-color;
+
+  &__logo {
+    float: left;
+  }
+
+  &__menu {
+    float: right;
+    margin-top: 12px;
+  }
+
+  &__contact {
+    float: right;
+  }
+}

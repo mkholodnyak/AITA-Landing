@@ -1,0 +1,14 @@
+.link {
+  color: $first-color;
+  text-decoration: none;
+
+  &_special {
+    &:hover {
+      color: red;
+    }
+  }
+
+  &:hover {
+    color: $second-color;
+  }
+}

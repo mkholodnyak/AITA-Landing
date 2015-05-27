@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'mixins';
+
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/menu";
+@import "blocks/contact";
+@import "blocks/link";
+@import "blocks/wrapper";
+@import "blocks/content";
+@import "blocks/slide";
+@import "blocks/phone";
+@import "blocks/promo-block";
+@import "blocks/download-block";
+@import "blocks/download-button";
+@import "blocks/next-slide-arrow";
+
+body {
+  min-width: $content-width;
+  box-sizing: border-box;
+
+  font-family: 'Open Sans';
+  background: url('../images/bg.jpeg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
