@@ -1,6 +1,11 @@
 'use strict';
 
 $(document).ready(function () {
+
+    $(window).load(function () {
+        $('.splashscreen').fadeOut('slow');
+    });
+
     var isMobile = false;
     if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         isMobile = true;
@@ -9,7 +14,7 @@ $(document).ready(function () {
     var $landing = $("#landing");
     $landing.onepage_scroll({
         sectionContainer: ".outer_wrapper",
-        updateURL: true
+        updateURL: false
     });
 
     $('.next-slide-arrow').each(function () {

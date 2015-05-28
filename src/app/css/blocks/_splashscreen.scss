@@ -1,0 +1,19 @@
+.splashscreen {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, .95);
+
+  &__loader {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%, -50%);
+
+    width: 64px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    left: 50%;
+  }
+}
